@@ -27,17 +27,17 @@ function App() {
 
   return (
     <>
-    {/* <Router> */}
+    { <Router> }
     <Navbar  title='Text Utilities' mode={mode} toggleMode={toggleMode} />
-      {/* <Routes>
+      { <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/About' element={<About />} />
         <Route path='/Contact' element={<Contact />} />
         <Route path='*' element={<h1 className='container my-3'>404 Error <br/> Page Not Found</h1>} />
-      </Routes> */}
-    {/* </Router> */}
-    <Home />
+      </Routes> }
+    {</Router> }
 {/* <Navbar  title='Text Utilities' />
+    <Home />
 <div className="container mt-3">
   <About />
 </div> */}
